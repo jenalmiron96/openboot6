@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(170, 243, 213);
+}
+
+
+section button.C::before{
+    content: "Pasa por encima";
+}
+
+section p{
+    background-color: crimson;
+}
+section p::selection {
+    background-color: rgb(130, 168, 99);
+    color: blueviolet;
+}
+section button.C:hover::before{
+    background-color: rgb(4, 247, 4);
+    color:rgb(243, 247, 243);
+    content: "¡Hecho!";
+}
